@@ -1,0 +1,32 @@
+"use strict"
+
+module.exports = {
+  "extends": "stylelint-config-standard",
+  "rules": {
+      "indentation": 2,
+      "string-quotes": "single",
+      "no-duplicate-selectors": true,
+      "color-hex-case": "lower",
+      "selector-no-qualifying-type": true,
+      "selector-combinator-space-after": "always",
+      "declaration-block-trailing-semicolon": "always",
+      "declaration-no-important": true,
+      "declaration-colon-space-before": "never",
+      "declaration-colon-space-after": "always",
+      "property-no-vendor-prefix": true,
+      "value-no-vendor-prefix": true,
+      "number-leading-zero": "never",
+      "font-family-name-quotes": "always-where-recommended",
+      "comment-whitespace-inside": "always",
+      "comment-empty-line-before": "always",
+      "at-rule-no-vendor-prefix": true,
+      "rule-empty-line-before": "always",
+      "selector-no-vendor-prefix": true,
+      "media-feature-range-operator-space-before": "always",
+      "media-feature-range-operator-space-after": "always",
+      "media-feature-parentheses-space-inside": "never",
+      "media-feature-name-no-vendor-prefix": true,
+      "media-feature-colon-space-before": "never",
+      "media-feature-colon-space-after": "always"
+  },
+}

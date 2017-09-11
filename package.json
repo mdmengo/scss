@@ -1,0 +1,33 @@
+{
+  "name": "scss-starter",
+  "version": "1.0.0",
+  "description": "the sassy starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mdmengo",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-copy": "^0.1.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-stylelint": "^0.9.0",
+    "load-grunt-tasks": "^3.5.2",
+    "pixrem": "^4.0.1",
+    "postcss": "^6.0.10",
+    "postcss-color-rgba-fallback": "^3.0.0",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-opacity": "^5.0.0",
+    "postcss-vmin": "^3.0.0",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  },
+  "dependencies": {}
+}
